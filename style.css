@@ -1,0 +1,214 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: serif;
+    margin: o;
+    padding: 0;
+    height: 100%;
+}
+
+.body-home{
+    background-image: url('images/restaurant-menu-wood-background-example-vintage-style-wooden-62718966.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-starters{
+    background-image: url('images/41-417767_restaurant-menu-theme-backgrounds-menu-restaurant.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*===== HEADER =====*/
+
+.header{
+    background-color: darkgoldenrod;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+}
+
+.header i{
+    float: left;
+    padding: 17px opx 0px 17px;
+    color: white;
+}
+
+.h{
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+
+/*==================== HOME PAGE ====================*/
+
+/*===== HOME PAGE MENU =====*/
+
+.home-menu-item{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: khaki;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid khaki;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+/*===== STARTERS PAGE =====*/
+
+#starters{
+    padding: 15px;
+}
+
+
+
+/*===== STARTERS PAGE MENU =====*/
+
+.starters-list a{
+    text-decoration: none;
+}
+
+.starters-list-item{
+   border: 5px solid #1a1a1a;
+    margin: 10px;
+}
+
+.starters-list-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    padding-left: 10px;
+}
+
+
+.starters-list-item i{
+    float: right;
+    color: white;
+    padding-right: 10px;
+}
+
+.starters-list-item p{
+    font-size-adjust: 15px;
+    font-style: italic;
+    color: black;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+
+/*==================== PRICE PAGE ====================*/
+
+#price{
+    padding-top: 50px;
+    
+}
+
+/*==================== PRICE DETAILS ====================*/
+
+.price-details img{
+    width: 100%;
+}
+
+.price-details h1{
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5x;
+}
+
+.price-details-info{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.price-details-info p{
+    font-size: 13px;
+}
+
+.price-details-info h2{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.order-button{
+    text-align: center;
+    margin: 100px;
+}
+
+.button{
+    border: 1px solid #ff69b4;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    overflow: hidden;
+}
+
+.button1{
+    color: palegreen;
+}
+
+.button1:hover{
+    color: palegoldenrod;
+}
+
+.button1:before{
+    content: "";
+    position: absolute;
+    left:0;
+    width: 100%;
+    height: 0;
+    background: #ff69b4;
+    z-index: -1;
+    transition: 0.8s;
+}
+
+
+.button1:before{
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+
+.button1:hover:{
+    height: 180%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
